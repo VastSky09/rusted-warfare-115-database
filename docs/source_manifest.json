@@ -1,0 +1,14 @@
+{
+  "version": "v0.1-preview",
+  "counts": {
+    "objects": 91,
+    "core": 85,
+    "related_p2": 6,
+    "tech": 212,
+    "transform": 12
+  },
+  "source_original_game_copied": false,
+  "third_party_files_copied": false,
+  "original_game_assets_included": false,
+  "source": "Frozen original PC 1.15 A-04 research snapshot"
+}

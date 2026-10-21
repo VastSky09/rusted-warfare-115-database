@@ -1,0 +1,213 @@
+﻿relation_id,source_id,source_name,source_native_id,source_state,relation,native_action,target_id,target_name,target_native_id,target_state,cost_credits,evidence_level,verified_scope
+REL-0067,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T1,同类型内部升级,110,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T2,2000,E3,研究证据，非完整E4对局
+REL-0068,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T1,生产,u_builder,OBJ-008,建造者,builder,S-OBJ-008-T1,500,E3,研究证据，非完整E4对局
+REL-0069,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T1,生产,u_c_artillery,OBJ-159,自行火炮,c_artillery,S-OBJ-159-T1,900,E3,研究证据，非完整E4对局
+REL-0070,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T1,生产,u_c_tank,OBJ-161,坦克,c_tank,S-OBJ-161-T1,350,E3,研究证据，非完整E4对局
+REL-0071,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T1,生产,u_hoverTank,OBJ-010,悬浮坦克,hoverTank,S-OBJ-010-T1,450,E3,研究证据，非完整E4对局
+REL-0072,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T1,生产,u_scout,OBJ-157,侦察者,scout,S-OBJ-157-T1,700,E3,研究证据，非完整E4对局
+REL-0073,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T2,生产,u_builder,OBJ-008,建造者,builder,S-OBJ-008-T1,500,E3,研究证据，非完整E4对局
+REL-0074,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T2,生产,u_c_artillery,OBJ-159,自行火炮,c_artillery,S-OBJ-159-T1,900,E3,研究证据，非完整E4对局
+REL-0075,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T2,生产,u_c_laserTank,OBJ-102,激光坦克,c_laserTank,S-OBJ-102-T2,1600,E3,研究证据，非完整E4对局
+REL-0076,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T2,生产,u_c_mammothTank,OBJ-105,猛犸坦克,c_mammothTank,S-OBJ-105-T2,3900,E3,研究证据，非完整E4对局
+REL-0077,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T2,生产,u_c_tank,OBJ-161,坦克,c_tank,S-OBJ-161-T1,350,E3,研究证据，非完整E4对局
+REL-0078,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T2,生产,u_combatEngineer,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,3500,E3,研究证据，非完整E4对局
+REL-0079,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T2,生产,u_heavyArtillery,OBJ-160,重型火炮,heavyArtillery,S-OBJ-160-T2,3100,E3,研究证据，非完整E4对局
+REL-0080,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T2,生产,u_heavyHoverTank,OBJ-024,重型气垫坦克,heavyHoverTank,S-OBJ-024-T1,1000,E3,研究证据，非完整E4对局
+REL-0081,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T2,生产,u_heavyTank,OBJ-023,重型坦克,heavyTank,S-OBJ-023-T1,800,E3,研究证据，非完整E4对局
+REL-0082,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T2,生产,u_hoverTank,OBJ-010,悬浮坦克,hoverTank,S-OBJ-010-T1,450,E3,研究证据，非完整E4对局
+REL-0083,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T2,生产,u_hovercraft,OBJ-019,登陆艇,hovercraft,S-OBJ-019-T1,600,E3,研究证据，非完整E4对局
+REL-0084,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T2,生产,u_missileTank,OBJ-123,防空导弹坦克,missileTank,S-OBJ-123-T2,2500,E3,研究证据，非完整E4对局
+REL-0085,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T2,生产,u_plasmaTank,OBJ-154,等离子坦克,plasmaTank,S-OBJ-154-T2,1000,E3,研究证据，非完整E4对局
+REL-0086,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T2,生产,u_scout,OBJ-157,侦察者,scout,S-OBJ-157-T1,700,E3,研究证据，非完整E4对局
+REL-0087,OBJ-003,空军基地,airFactory,S-OBJ-003-T1,同类型内部升级,110,OBJ-003,空军基地,airFactory,S-OBJ-003-T2,1500,E3,研究证据，非完整E4对局
+REL-0088,OBJ-003,空军基地,airFactory,S-OBJ-003-T1,生产,u_c_helicopter,OBJ-099,直升机,c_helicopter,S-OBJ-099-T1,700,E3,研究证据，非完整E4对局
+REL-0089,OBJ-003,空军基地,airFactory,S-OBJ-003-T1,生产,u_c_interceptor,OBJ-100,拦截机,c_interceptor,S-OBJ-100-T1,600,E3,研究证据，非完整E4对局
+REL-0090,OBJ-003,空军基地,airFactory,S-OBJ-003-T1,生产,u_lightGunship,OBJ-103,轻型武装直升机,lightGunship,S-OBJ-103-T1,250,E3,研究证据，非完整E4对局
+REL-0091,OBJ-003,空军基地,airFactory,S-OBJ-003-T2,生产,u_aaBeamGunship,OBJ-053,AA激光射束战机,aaBeamGunship,S-OBJ-053-T2,6000,E3,研究证据，非完整E4对局
+REL-0092,OBJ-003,空军基地,airFactory,S-OBJ-003-T2,生产,u_amphibiousJet,OBJ-039,两栖喷气机,amphibiousJet,S-OBJ-039-T1,2000,E3,研究证据，非完整E4对局
+REL-0093,OBJ-003,空军基地,airFactory,S-OBJ-003-T2,生产,u_bomber,OBJ-058,轰炸机,bomber,S-OBJ-058-T2,4000,E3,研究证据，非完整E4对局
+REL-0094,OBJ-003,空军基地,airFactory,S-OBJ-003-T2,生产,u_c_helicopter,OBJ-099,直升机,c_helicopter,S-OBJ-099-T1,700,E3,研究证据，非完整E4对局
+REL-0095,OBJ-003,空军基地,airFactory,S-OBJ-003-T2,生产,u_c_interceptor,OBJ-100,拦截机,c_interceptor,S-OBJ-100-T1,600,E3,研究证据，非完整E4对局
+REL-0096,OBJ-003,空军基地,airFactory,S-OBJ-003-T2,生产,u_dropship,OBJ-026,运输机,dropship,S-OBJ-026-T1,800,E3,研究证据，非完整E4对局
+REL-0097,OBJ-003,空军基地,airFactory,S-OBJ-003-T2,生产,u_gunShip,OBJ-014,武装直升机,gunShip,S-OBJ-014-T1,800,E3,研究证据，非完整E4对局
+REL-0098,OBJ-003,空军基地,airFactory,S-OBJ-003-T2,生产,u_heavyInterceptor,OBJ-096,重型拦截机,heavyInterceptor,S-OBJ-096-T2,1200,E3,研究证据，非完整E4对局
+REL-0099,OBJ-003,空军基地,airFactory,S-OBJ-003-T2,生产,u_lightGunship,OBJ-103,轻型武装直升机,lightGunship,S-OBJ-103-T1,250,E3,研究证据，非完整E4对局
+REL-0100,OBJ-003,空军基地,airFactory,S-OBJ-003-T2,生产,u_missileAirship,OBJ-122,导弹飞艇,missileAirship,S-OBJ-122-T2,3900,E3,研究证据，非完整E4对局
+REL-0101,OBJ-003,空军基地,airFactory,S-OBJ-003-T2,生产,u_spyDrone,OBJ-158,间谍无人机,spyDrone,S-OBJ-158-T2,1500,E3,研究证据，非完整E4对局
+REL-0102,OBJ-004,海军基地,seaFactory,S-OBJ-004-T1,同类型内部升级,110,OBJ-004,海军基地,seaFactory,S-OBJ-004-T2,2000,E3,研究证据，非完整E4对局
+REL-0103,OBJ-004,海军基地,seaFactory,S-OBJ-004-T1,生产,u_attackSubmarine,OBJ-037,潜水艇,attackSubmarine,S-OBJ-037-T1,800,E3,研究证据，非完整E4对局
+REL-0104,OBJ-004,海军基地,seaFactory,S-OBJ-004-T1,生产,u_battleShip,OBJ-021,战列舰,battleShip,S-OBJ-021-T1,1500,E3,研究证据，非完整E4对局
+REL-0105,OBJ-004,海军基地,seaFactory,S-OBJ-004-T1,生产,u_builderShip,OBJ-038,海上建造者,builderShip,S-OBJ-038-T1,500,E3,研究证据，非完整E4对局
+REL-0106,OBJ-004,海军基地,seaFactory,S-OBJ-004-T1,生产,u_gunBoat,OBJ-016,机枪艇,gunBoat,S-OBJ-016-T1,300,E3,研究证据，非完整E4对局
+REL-0107,OBJ-004,海军基地,seaFactory,S-OBJ-004-T1,生产,u_hovercraft,OBJ-019,登陆艇,hovercraft,S-OBJ-019-T1,600,E3,研究证据，非完整E4对局
+REL-0108,OBJ-004,海军基地,seaFactory,S-OBJ-004-T1,生产,u_lightSub,OBJ-104,水下探测器,lightSub,S-OBJ-104-T1,450,E3,研究证据，非完整E4对局
+REL-0109,OBJ-004,海军基地,seaFactory,S-OBJ-004-T1,生产,u_missileShip,OBJ-015,导弹舰,missileShip,S-OBJ-015-T1,900,E3,研究证据，非完整E4对局
+REL-0110,OBJ-004,海军基地,seaFactory,S-OBJ-004-T2,生产,u_attackSubmarine,OBJ-037,潜水艇,attackSubmarine,S-OBJ-037-T1,800,E3,研究证据，非完整E4对局
+REL-0111,OBJ-004,海军基地,seaFactory,S-OBJ-004-T2,生产,u_battleShip,OBJ-021,战列舰,battleShip,S-OBJ-021-T1,1500,E3,研究证据，非完整E4对局
+REL-0112,OBJ-004,海军基地,seaFactory,S-OBJ-004-T2,生产,u_builderShip,OBJ-038,海上建造者,builderShip,S-OBJ-038-T1,500,E3,研究证据，非完整E4对局
+REL-0113,OBJ-004,海军基地,seaFactory,S-OBJ-004-T2,生产,u_experiementalCarrier,OBJ-079,航空母舰,experiementalCarrier,S-OBJ-079-T2,30000,E3,研究证据，非完整E4对局
+REL-0114,OBJ-004,海军基地,seaFactory,S-OBJ-004-T2,生产,u_gunBoat,OBJ-016,机枪艇,gunBoat,S-OBJ-016-T1,300,E3,研究证据，非完整E4对局
+REL-0115,OBJ-004,海军基地,seaFactory,S-OBJ-004-T2,生产,u_heavyAAShip,OBJ-094,重型防空舰,heavyAAShip,S-OBJ-094-T2,3500,E3,研究证据，非完整E4对局
+REL-0116,OBJ-004,海军基地,seaFactory,S-OBJ-004-T2,生产,u_heavyBattleship,OBJ-095,重型战舰,heavyBattleship,S-OBJ-095-T2,6000,E3,研究证据，非完整E4对局
+REL-0117,OBJ-004,海军基地,seaFactory,S-OBJ-004-T2,生产,u_heavyMissileShip,OBJ-097,重型导弹舰,heavyMissileShip,S-OBJ-097-T2,18000,E3,研究证据，非完整E4对局
+REL-0118,OBJ-004,海军基地,seaFactory,S-OBJ-004-T2,生产,u_heavySub,OBJ-098,重型潜艇,heavySub,S-OBJ-098-T2,5500,E3,研究证据，非完整E4对局
+REL-0119,OBJ-004,海军基地,seaFactory,S-OBJ-004-T2,生产,u_hovercraft,OBJ-019,登陆艇,hovercraft,S-OBJ-019-T1,600,E3,研究证据，非完整E4对局
+REL-0120,OBJ-004,海军基地,seaFactory,S-OBJ-004-T2,生产,u_lightSub,OBJ-104,水下探测器,lightSub,S-OBJ-104-T1,450,E3,研究证据，非完整E4对局
+REL-0121,OBJ-004,海军基地,seaFactory,S-OBJ-004-T2,生产,u_missileShip,OBJ-015,导弹舰,missileShip,S-OBJ-015-T1,900,E3,研究证据，非完整E4对局
+REL-0122,OBJ-004,海军基地,seaFactory,S-OBJ-004-T2,生产,u_nautilusSubmarine,OBJ-145,鹦鹉螺号,nautilusSubmarine,S-OBJ-145-T2,18000,E3,研究证据，非完整E4对局
+REL-0123,OBJ-005,指挥中心,commandCenter,S-OBJ-005-T1,生产,u_builder,OBJ-008,建造者,builder,S-OBJ-008-T1,500,E3,研究证据，非完整E4对局
+REL-0124,OBJ-005,指挥中心,commandCenter,S-OBJ-005-T1,生产,u_scout,OBJ-157,侦察者,scout,S-OBJ-157-T1,700,E3,研究证据，非完整E4对局
+REL-0125,OBJ-008,建造者,builder,S-OBJ-008-T1,建造,b_airFactory,OBJ-003,空军基地,airFactory,S-OBJ-003-T1,1000,E3,研究证据，非完整E4对局
+REL-0126,OBJ-008,建造者,builder,S-OBJ-008-T1,建造,b_antiNukeLauncherC,OBJ-150,反核防御,antiNukeLauncherC,S-OBJ-150-T1,15000,E3,研究证据，非完整E4对局
+REL-0127,OBJ-008,建造者,builder,S-OBJ-008-T1,建造,b_c_antiAirTurret,OBJ-162,防空炮塔,c_antiAirTurret,S-OBJ-162-T1,600,E3,研究证据，非完整E4对局
+REL-0128,OBJ-008,建造者,builder,S-OBJ-008-T1,建造,b_c_turret_t1,OBJ-166,炮塔,c_turret_t1,S-OBJ-166-T1,500,E3,研究证据，非完整E4对局
+REL-0129,OBJ-008,建造者,builder,S-OBJ-008-T1,建造,b_experimentalLandFactory,OBJ-033,实验工厂,experimentalLandFactory,S-OBJ-033-T2,11000,E3,研究证据，非完整E4对局
+REL-0130,OBJ-008,建造者,builder,S-OBJ-008-T1,建造,b_extractorT1,OBJ-085,资源抽取器,extractorT1,S-OBJ-085-T1,700,E3,研究证据，非完整E4对局
+REL-0131,OBJ-008,建造者,builder,S-OBJ-008-T1,建造,b_fabricatorT1,OBJ-090,资源制造仪,fabricatorT1,S-OBJ-090-T1,2200,E3,研究证据，非完整E4对局
+REL-0132,OBJ-008,建造者,builder,S-OBJ-008-T1,建造,b_landFactory,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T1,700,E3,研究证据，非完整E4对局
+REL-0133,OBJ-008,建造者,builder,S-OBJ-008-T1,建造,b_laserDefence,OBJ-025,激光防御塔,laserDefence,S-OBJ-025-T1,1200,E3,研究证据，非完整E4对局
+REL-0134,OBJ-008,建造者,builder,S-OBJ-008-T1,建造,b_mechFactory,OBJ-107,机械工厂,mechFactory,S-OBJ-107-T1,1000,E3,研究证据，非完整E4对局
+REL-0135,OBJ-008,建造者,builder,S-OBJ-008-T1,建造,b_nukeLauncherC,OBJ-151,核弹发射井,nukeLauncherC,S-OBJ-151-T1,45000,E3,研究证据，非完整E4对局
+REL-0136,OBJ-008,建造者,builder,S-OBJ-008-T1,建造,b_repairbay,OBJ-028,修复湾,repairbay,S-OBJ-028-T1,1500,E3,研究证据，非完整E4对局
+REL-0137,OBJ-008,建造者,builder,S-OBJ-008-T1,建造,b_seaFactory,OBJ-004,海军基地,seaFactory,S-OBJ-004-T1,1000,E3,研究证据，非完整E4对局
+REL-0138,OBJ-025,激光防御塔,laserDefence,S-OBJ-025-T1,同类型内部升级,102,OBJ-025,激光防御塔,laserDefence,S-OBJ-025-T2,2000,E3,研究证据，非完整E4对局
+REL-0139,OBJ-033,实验工厂,experimentalLandFactory,S-OBJ-033-T2,生产,u_c_experimentalTank,OBJ-084,实验坦克,c_experimentalTank,S-OBJ-084-T2,14000,E3,研究证据，非完整E4对局
+REL-0140,OBJ-033,实验工厂,experimentalLandFactory,S-OBJ-033-T2,生产,u_combatEngineer,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,3500,E3,研究证据，非完整E4对局
+REL-0141,OBJ-033,实验工厂,experimentalLandFactory,S-OBJ-033-T2,生产,u_experimentalDropship,OBJ-080,飞行堡垒,experimentalDropship,S-OBJ-080-T1,30000,E3,研究证据，非完整E4对局
+REL-0142,OBJ-033,实验工厂,experimentalLandFactory,S-OBJ-033-T2,生产,u_experimentalHoverTank,OBJ-041,概念型悬浮坦克,experimentalHoverTank,S-OBJ-041-T1,21000,E3,研究证据，非完整E4对局
+REL-0143,OBJ-033,实验工厂,experimentalLandFactory,S-OBJ-033-T2,生产,u_experimentalSpider,OBJ-083,实验型战斗蜘蛛,experimentalSpider,S-OBJ-083-T1,70000,E3,研究证据，非完整E4对局
+REL-0144,OBJ-033,实验工厂,experimentalLandFactory,S-OBJ-033-T2,生产,u_fireBee,OBJ-093,火蜂战机,fireBee,S-OBJ-093-T1,12000,E3,研究证据，非完整E4对局
+REL-0145,OBJ-033,实验工厂,experimentalLandFactory,S-OBJ-033-T2,生产,u_nautilusSubmarineLand,OBJ-146,鹦鹉螺号,nautilusSubmarineLand,S-OBJ-146-T2,18000,E3,研究证据，非完整E4对局
+REL-0148,OBJ-038,海上建造者,builderShip,S-OBJ-038-T1,建造,b_airFactory,OBJ-003,空军基地,airFactory,S-OBJ-003-T1,1000,E3,研究证据，非完整E4对局
+REL-0149,OBJ-038,海上建造者,builderShip,S-OBJ-038-T1,建造,b_c_antiAirTurret,OBJ-162,防空炮塔,c_antiAirTurret,S-OBJ-162-T1,600,E3,研究证据，非完整E4对局
+REL-0150,OBJ-038,海上建造者,builderShip,S-OBJ-038-T1,建造,b_c_turret_t1,OBJ-166,炮塔,c_turret_t1,S-OBJ-166-T1,500,E3,研究证据，非完整E4对局
+REL-0151,OBJ-038,海上建造者,builderShip,S-OBJ-038-T1,建造,b_extractorT1,OBJ-085,资源抽取器,extractorT1,S-OBJ-085-T1,700,E3,研究证据，非完整E4对局
+REL-0152,OBJ-038,海上建造者,builderShip,S-OBJ-038-T1,建造,b_fabricatorT1,OBJ-090,资源制造仪,fabricatorT1,S-OBJ-090-T1,2200,E3,研究证据，非完整E4对局
+REL-0153,OBJ-038,海上建造者,builderShip,S-OBJ-038-T1,建造,b_landFactory,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T1,700,E3,研究证据，非完整E4对局
+REL-0154,OBJ-038,海上建造者,builderShip,S-OBJ-038-T1,建造,b_laserDefence,OBJ-025,激光防御塔,laserDefence,S-OBJ-025-T1,1200,E3,研究证据，非完整E4对局
+REL-0155,OBJ-038,海上建造者,builderShip,S-OBJ-038-T1,建造,b_repairbay,OBJ-028,修复湾,repairbay,S-OBJ-028-T1,1500,E3,研究证据，非完整E4对局
+REL-0156,OBJ-038,海上建造者,builderShip,S-OBJ-038-T1,建造,b_seaFactory,OBJ-004,海军基地,seaFactory,S-OBJ-004-T1,1000,E3,研究证据，非完整E4对局
+REL-0188,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,ActionId(b_airFactory)_2,OBJ-003,空军基地,airFactory,S-OBJ-003-T2,2500,E3,研究证据，非完整E4对局
+REL-0189,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,ActionId(b_landFactory)_2,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T2,2700,E3,研究证据，非完整E4对局
+REL-0190,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,ActionId(b_seaFactory)_2,OBJ-004,海军基地,seaFactory,S-OBJ-004-T2,3000,E3,研究证据，非完整E4对局
+REL-0191,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,b_amphibiousJet,OBJ-039,两栖喷气机,amphibiousJet,S-OBJ-039-T1,2000,E3,研究证据，非完整E4对局
+REL-0192,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,b_antiNukeLauncherC,OBJ-150,反核防御,antiNukeLauncherC,S-OBJ-150-T1,15000,E3,研究证据，非完整E4对局
+REL-0193,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,b_builder,OBJ-008,建造者,builder,S-OBJ-008-T1,500,E3,研究证据，非完整E4对局
+REL-0194,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,b_c_antiAirTurret,OBJ-162,防空炮塔,c_antiAirTurret,S-OBJ-162-T1,600,E3,研究证据，非完整E4对局
+REL-0195,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,b_c_turret_t1,OBJ-166,炮塔,c_turret_t1,S-OBJ-166-T1,500,E3,研究证据，非完整E4对局
+REL-0196,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,b_c_turret_t1_lightning,OBJ-168,闪电炮塔,c_turret_t1_lightning,S-OBJ-168-T2,2700,E3,研究证据，非完整E4对局
+REL-0197,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,b_c_turret_t2_gun,OBJ-171,机枪 T2,c_turret_t2_gun,S-OBJ-171-T2,1500,E3,研究证据，非完整E4对局
+REL-0198,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,b_experimentalLandFactory,OBJ-033,实验工厂,experimentalLandFactory,S-OBJ-033-T2,11000,E3,研究证据，非完整E4对局
+REL-0199,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,b_extractorT1,OBJ-085,资源抽取器,extractorT1,S-OBJ-085-T1,700,E3,研究证据，非完整E4对局
+REL-0200,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,b_extractorT2,OBJ-086,资源抽取器,extractorT2,S-OBJ-086-T2,2100,E3,研究证据，非完整E4对局
+REL-0201,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,b_fabricatorT1,OBJ-090,资源制造仪,fabricatorT1,S-OBJ-090-T1,2200,E3,研究证据，非完整E4对局
+REL-0202,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,b_heavyTank,OBJ-023,重型坦克,heavyTank,S-OBJ-023-T1,800,E3,研究证据，非完整E4对局
+REL-0203,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,b_laserDefence,OBJ-025,激光防御塔,laserDefence,S-OBJ-025-T1,1200,E3,研究证据，非完整E4对局
+REL-0204,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,b_mechFactoryT2,OBJ-108,T2 - 机械工厂,mechFactoryT2,S-OBJ-108-T2,5000,E3,研究证据，非完整E4对局
+REL-0205,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,b_nukeLauncherC,OBJ-151,核弹发射井,nukeLauncherC,S-OBJ-151-T1,45000,E3,研究证据，非完整E4对局
+REL-0206,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,b_outpostT1,OBJ-152,瞭望塔,outpostT1,S-OBJ-152-T1,1500,E3,研究证据，非完整E4对局
+REL-0207,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,建造,b_repairbay,OBJ-028,修复湾,repairbay,S-OBJ-028-T1,1500,E3,研究证据，非完整E4对局
+REL-0209,OBJ-079,航空母舰,experiementalCarrier,S-OBJ-079-T2,生产,u_amphibiousJet,OBJ-039,两栖喷气机,amphibiousJet,S-OBJ-039-T1,2000,E3,研究证据，非完整E4对局
+REL-0210,OBJ-079,航空母舰,experiementalCarrier,S-OBJ-079-T2,生产,u_bomber,OBJ-058,轰炸机,bomber,S-OBJ-058-T2,4000,E3,研究证据，非完整E4对局
+REL-0211,OBJ-079,航空母舰,experiementalCarrier,S-OBJ-079-T2,生产,u_c_helicopter,OBJ-099,直升机,c_helicopter,S-OBJ-099-T1,700,E3,研究证据，非完整E4对局
+REL-0212,OBJ-079,航空母舰,experiementalCarrier,S-OBJ-079-T2,生产,u_c_interceptor,OBJ-100,拦截机,c_interceptor,S-OBJ-100-T1,600,E3,研究证据，非完整E4对局
+REL-0213,OBJ-079,航空母舰,experiementalCarrier,S-OBJ-079-T2,生产,u_dropship,OBJ-026,运输机,dropship,S-OBJ-026-T1,800,E3,研究证据，非完整E4对局
+REL-0214,OBJ-079,航空母舰,experiementalCarrier,S-OBJ-079-T2,生产,u_gunShip,OBJ-014,武装直升机,gunShip,S-OBJ-014-T1,800,E3,研究证据，非完整E4对局
+REL-0215,OBJ-079,航空母舰,experiementalCarrier,S-OBJ-079-T2,生产,u_heavyInterceptor,OBJ-096,重型拦截机,heavyInterceptor,S-OBJ-096-T2,1200,E3,研究证据，非完整E4对局
+REL-0216,OBJ-079,航空母舰,experiementalCarrier,S-OBJ-079-T2,生产,u_lightGunship,OBJ-103,轻型武装直升机,lightGunship,S-OBJ-103-T1,250,E3,研究证据，非完整E4对局
+REL-0217,OBJ-079,航空母舰,experiementalCarrier,S-OBJ-079-T2,生产,u_missileAirship,OBJ-122,导弹飞艇,missileAirship,S-OBJ-122-T2,3900,E3,研究证据，非完整E4对局
+REL-0218,OBJ-080,飞行堡垒,experimentalDropship,S-OBJ-080-T1,生产,u_builder,OBJ-008,建造者,builder,S-OBJ-008-T1,500,E3,研究证据，非完整E4对局
+REL-0219,OBJ-080,飞行堡垒,experimentalDropship,S-OBJ-080-T1,生产,u_c_laserTank,OBJ-102,激光坦克,c_laserTank,S-OBJ-102-T2,1600,E3,研究证据，非完整E4对局
+REL-0220,OBJ-080,飞行堡垒,experimentalDropship,S-OBJ-080-T1,生产,u_c_mammothTank,OBJ-105,猛犸坦克,c_mammothTank,S-OBJ-105-T2,3900,E3,研究证据，非完整E4对局
+REL-0221,OBJ-080,飞行堡垒,experimentalDropship,S-OBJ-080-T1,生产,u_c_tank,OBJ-161,坦克,c_tank,S-OBJ-161-T1,350,E3,研究证据，非完整E4对局
+REL-0222,OBJ-080,飞行堡垒,experimentalDropship,S-OBJ-080-T1,生产,u_combatEngineer,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,3500,E3,研究证据，非完整E4对局
+REL-0223,OBJ-080,飞行堡垒,experimentalDropship,S-OBJ-080-T1,生产,u_heavyTank,OBJ-023,重型坦克,heavyTank,S-OBJ-023-T1,800,E3,研究证据，非完整E4对局
+REL-0224,OBJ-080,飞行堡垒,experimentalDropship,S-OBJ-080-T1,生产,u_hoverTank,OBJ-010,悬浮坦克,hoverTank,S-OBJ-010-T1,450,E3,研究证据，非完整E4对局
+REL-0225,OBJ-080,飞行堡垒,experimentalDropship,S-OBJ-080-T1,生产,u_missileTank,OBJ-123,防空导弹坦克,missileTank,S-OBJ-123-T2,2500,E3,研究证据，非完整E4对局
+REL-0226,OBJ-080,飞行堡垒,experimentalDropship,S-OBJ-080-T1,生产,u_plasmaTank,OBJ-154,等离子坦克,plasmaTank,S-OBJ-154-T2,1000,E3,研究证据，非完整E4对局
+REL-0227,OBJ-080,飞行堡垒,experimentalDropship,S-OBJ-080-T1,生产,u_scout,OBJ-157,侦察者,scout,S-OBJ-157-T1,700,E3,研究证据，非完整E4对局
+REL-0262,OBJ-083,实验型战斗蜘蛛,experimentalSpider,S-OBJ-083-T1,建造,b_airFactory,OBJ-003,空军基地,airFactory,S-OBJ-003-T1,1000,E3,研究证据，非完整E4对局
+REL-0263,OBJ-083,实验型战斗蜘蛛,experimentalSpider,S-OBJ-083-T1,建造,b_bomber,OBJ-058,轰炸机,bomber,S-OBJ-058-T2,4000,E3,研究证据，非完整E4对局
+REL-0264,OBJ-083,实验型战斗蜘蛛,experimentalSpider,S-OBJ-083-T1,建造,b_builder,OBJ-008,建造者,builder,S-OBJ-008-T1,500,E3,研究证据，非完整E4对局
+REL-0265,OBJ-083,实验型战斗蜘蛛,experimentalSpider,S-OBJ-083-T1,建造,b_c_antiAirTurret,OBJ-162,防空炮塔,c_antiAirTurret,S-OBJ-162-T1,600,E3,研究证据，非完整E4对局
+REL-0266,OBJ-083,实验型战斗蜘蛛,experimentalSpider,S-OBJ-083-T1,建造,b_c_artillery,OBJ-159,自行火炮,c_artillery,S-OBJ-159-T1,900,E3,研究证据，非完整E4对局
+REL-0267,OBJ-083,实验型战斗蜘蛛,experimentalSpider,S-OBJ-083-T1,建造,b_c_turret_t1,OBJ-166,炮塔,c_turret_t1,S-OBJ-166-T1,500,E3,研究证据，非完整E4对局
+REL-0268,OBJ-083,实验型战斗蜘蛛,experimentalSpider,S-OBJ-083-T1,建造,b_c_turret_t1_artillery,OBJ-167,火炮,c_turret_t1_artillery,S-OBJ-167-T2,2100,E3,研究证据，非完整E4对局
+REL-0269,OBJ-083,实验型战斗蜘蛛,experimentalSpider,S-OBJ-083-T1,建造,b_combatEngineer,OBJ-078,战斗工程师,combatEngineer,S-OBJ-078-T2,3500,E3,研究证据，非完整E4对局
+REL-0270,OBJ-083,实验型战斗蜘蛛,experimentalSpider,S-OBJ-083-T1,建造,b_extractorT1,OBJ-085,资源抽取器,extractorT1,S-OBJ-085-T1,700,E3,研究证据，非完整E4对局
+REL-0271,OBJ-083,实验型战斗蜘蛛,experimentalSpider,S-OBJ-083-T1,建造,b_heavyHoverTank,OBJ-024,重型气垫坦克,heavyHoverTank,S-OBJ-024-T1,1000,E3,研究证据，非完整E4对局
+REL-0272,OBJ-083,实验型战斗蜘蛛,experimentalSpider,S-OBJ-083-T1,建造,b_heavyTank,OBJ-023,重型坦克,heavyTank,S-OBJ-023-T1,800,E3,研究证据，非完整E4对局
+REL-0273,OBJ-083,实验型战斗蜘蛛,experimentalSpider,S-OBJ-083-T1,建造,b_landFactory,OBJ-002,陆军工厂,landFactory,S-OBJ-002-T1,700,E3,研究证据，非完整E4对局
+REL-0274,OBJ-083,实验型战斗蜘蛛,experimentalSpider,S-OBJ-083-T1,建造,b_laserDefence,OBJ-025,激光防御塔,laserDefence,S-OBJ-025-T1,1200,E3,研究证据，非完整E4对局
+REL-0275,OBJ-083,实验型战斗蜘蛛,experimentalSpider,S-OBJ-083-T1,建造,b_mechFactory,OBJ-107,机械工厂,mechFactory,S-OBJ-107-T1,1000,E3,研究证据，非完整E4对局
+REL-0276,OBJ-083,实验型战斗蜘蛛,experimentalSpider,S-OBJ-083-T1,建造,b_repairbay,OBJ-028,修复湾,repairbay,S-OBJ-028-T1,1500,E3,研究证据，非完整E4对局
+REL-0277,OBJ-083,实验型战斗蜘蛛,experimentalSpider,S-OBJ-083-T1,建造,b_scout,OBJ-157,侦察者,scout,S-OBJ-157-T1,700,E3,研究证据，非完整E4对局
+REL-0278,OBJ-085,资源抽取器,extractorT1,S-OBJ-085-T1,跨类型升级,extractorT2_0,OBJ-086,资源抽取器,extractorT2,S-OBJ-086-T2,1400,E3,研究证据，非完整E4对局
+REL-0279,OBJ-086,资源抽取器,extractorT2,S-OBJ-086-T2,跨类型升级,extractorT3_0,OBJ-087,资源抽取器,extractorT3,S-OBJ-087-T3,4000,E3,研究证据，非完整E4对局
+REL-0280,OBJ-087,资源抽取器,extractorT3,S-OBJ-087-T3,跨类型升级,extractorT3_overclocked_0,OBJ-088,资源抽取器,extractorT3_overclocked,S-OBJ-088-T3,8000,E3,研究证据，非完整E4对局
+REL-0281,OBJ-087,资源抽取器,extractorT3,S-OBJ-087-T3,跨类型升级,extractorT3_reinforced_1,OBJ-089,资源抽取器,extractorT3_reinforced,S-OBJ-089-T3,3000,E3,研究证据，非完整E4对局
+REL-0284,OBJ-090,资源制造仪,fabricatorT1,S-OBJ-090-T1,跨类型升级,fabricatorT2_0,OBJ-091,资源制造仪,fabricatorT2,S-OBJ-091-T2,4400,E3,研究证据，非完整E4对局
+REL-0285,OBJ-091,资源制造仪,fabricatorT2,S-OBJ-091-T2,跨类型升级,fabricatorT3_0,OBJ-092,资源制造仪,fabricatorT3,S-OBJ-092-T2,7500,E3,研究证据，非完整E4对局
+REL-0286,OBJ-097,重型导弹舰,heavyMissileShip,S-OBJ-097-T2,生产,u_lightSub,OBJ-104,水下探测器,lightSub,S-OBJ-104-T1,450,E3,研究证据，非完整E4对局
+REL-0287,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,ActionId(b_airFactory)_2,OBJ-003,空军基地,airFactory,S-OBJ-003-T2,2500,E3,研究证据，非完整E4对局
+REL-0288,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,ActionId(b_seaFactory)_2,OBJ-004,海军基地,seaFactory,S-OBJ-004-T2,3000,E3,研究证据，非完整E4对局
+REL-0289,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,b_antiNukeLauncherC,OBJ-150,反核防御,antiNukeLauncherC,S-OBJ-150-T1,15000,E3,研究证据，非完整E4对局
+REL-0290,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,b_builderShip,OBJ-038,海上建造者,builderShip,S-OBJ-038-T1,500,E3,研究证据，非完整E4对局
+REL-0291,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,b_c_antiAirTurret,OBJ-162,防空炮塔,c_antiAirTurret,S-OBJ-162-T1,600,E3,研究证据，非完整E4对局
+REL-0292,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,b_c_turret_t1,OBJ-166,炮塔,c_turret_t1,S-OBJ-166-T1,500,E3,研究证据，非完整E4对局
+REL-0293,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,b_experimentalLandFactory,OBJ-033,实验工厂,experimentalLandFactory,S-OBJ-033-T2,11000,E3,研究证据，非完整E4对局
+REL-0294,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,b_extractorT1,OBJ-085,资源抽取器,extractorT1,S-OBJ-085-T1,700,E3,研究证据，非完整E4对局
+REL-0295,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,b_extractorT2,OBJ-086,资源抽取器,extractorT2,S-OBJ-086-T2,2100,E3,研究证据，非完整E4对局
+REL-0296,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,b_fabricatorT1,OBJ-090,资源制造仪,fabricatorT1,S-OBJ-090-T1,2200,E3,研究证据，非完整E4对局
+REL-0297,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,b_laserDefence,OBJ-025,激光防御塔,laserDefence,S-OBJ-025-T1,1200,E3,研究证据，非完整E4对局
+REL-0298,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,b_mechBunkerDeployed,OBJ-111,移动炮塔,mechBunkerDeployed,S-OBJ-111-T1,4500,E3,研究证据，非完整E4对局
+REL-0299,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,b_mechFactory,OBJ-107,机械工厂,mechFactory,S-OBJ-107-T1,1000,E3,研究证据，非完整E4对局
+REL-0300,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,b_mechFactoryT2,OBJ-108,T2 - 机械工厂,mechFactoryT2,S-OBJ-108-T2,5000,E3,研究证据，非完整E4对局
+REL-0301,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,b_mechGun,OBJ-119,基础机甲,mechGun,S-OBJ-119-T1,600,E3,研究证据，非完整E4对局
+REL-0302,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,b_mechMissile,OBJ-120,防空机甲,mechMissile,S-OBJ-120-T1,900,E3,研究证据，非完整E4对局
+REL-0303,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,b_nukeLauncherC,OBJ-151,核弹发射井,nukeLauncherC,S-OBJ-151-T1,45000,E3,研究证据，非完整E4对局
+REL-0304,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,b_outpostT1,OBJ-152,瞭望塔,outpostT1,S-OBJ-152-T1,1500,E3,研究证据，非完整E4对局
+REL-0305,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,建造,b_repairbay,OBJ-028,修复湾,repairbay,S-OBJ-028-T1,1500,E3,研究证据，非完整E4对局
+REL-0306,OBJ-107,机械工厂,mechFactory,S-OBJ-107-T1,生产,u_builder,OBJ-008,建造者,builder,S-OBJ-008-T1,500,E3,研究证据，非完整E4对局
+REL-0307,OBJ-107,机械工厂,mechFactory,S-OBJ-107-T1,生产,u_mechArtillery,OBJ-109,火炮机甲,mechArtillery,S-OBJ-109-T1,1400,E3,研究证据，非完整E4对局
+REL-0308,OBJ-107,机械工厂,mechFactory,S-OBJ-107-T1,生产,u_mechBunker,OBJ-110,移动炮塔,mechBunker,S-OBJ-110-T1,4500,E3,研究证据，非完整E4对局
+REL-0309,OBJ-107,机械工厂,mechFactory,S-OBJ-107-T1,生产,u_mechGun,OBJ-119,基础机甲,mechGun,S-OBJ-119-T1,600,E3,研究证据，非完整E4对局
+REL-0310,OBJ-107,机械工厂,mechFactory,S-OBJ-107-T1,生产,u_mechMissile,OBJ-120,防空机甲,mechMissile,S-OBJ-120-T1,900,E3,研究证据，非完整E4对局
+REL-0311,OBJ-107,机械工厂,mechFactory,S-OBJ-107-T1,跨类型升级,mechFactoryT2_2,OBJ-108,T2 - 机械工厂,mechFactoryT2,S-OBJ-108-T2,4000,E3,研究证据，非完整E4对局
+REL-0312,OBJ-108,T2 - 机械工厂,mechFactoryT2,S-OBJ-108-T2,生产,u_builder,OBJ-008,建造者,builder,S-OBJ-008-T1,500,E3,研究证据，非完整E4对局
+REL-0313,OBJ-108,T2 - 机械工厂,mechFactoryT2,S-OBJ-108-T2,生产,u_mechArtillery,OBJ-109,火炮机甲,mechArtillery,S-OBJ-109-T1,1400,E3,研究证据，非完整E4对局
+REL-0314,OBJ-108,T2 - 机械工厂,mechFactoryT2,S-OBJ-108-T2,生产,u_mechBunker,OBJ-110,移动炮塔,mechBunker,S-OBJ-110-T1,4500,E3,研究证据，非完整E4对局
+REL-0315,OBJ-108,T2 - 机械工厂,mechFactoryT2,S-OBJ-108-T2,生产,u_mechEngineer,OBJ-106,机械师,mechEngineer,S-OBJ-106-T2,5000,E3,研究证据，非完整E4对局
+REL-0316,OBJ-108,T2 - 机械工厂,mechFactoryT2,S-OBJ-108-T2,生产,u_mechFlame,OBJ-112,喷火机甲,mechFlame,S-OBJ-112-T2,12000,E3,研究证据，非完整E4对局
+REL-0317,OBJ-108,T2 - 机械工厂,mechFactoryT2,S-OBJ-108-T2,生产,u_mechGun,OBJ-119,基础机甲,mechGun,S-OBJ-119-T1,600,E3,研究证据，非完整E4对局
+REL-0318,OBJ-108,T2 - 机械工厂,mechFactoryT2,S-OBJ-108-T2,生产,u_mechHeavyMissile,OBJ-115,重型防空机械装甲,mechHeavyMissile,S-OBJ-115-T2,8500,E3,研究证据，非完整E4对局
+REL-0319,OBJ-108,T2 - 机械工厂,mechFactoryT2,S-OBJ-108-T2,生产,u_mechLaser,OBJ-116,等离子机甲,mechLaser,S-OBJ-116-T2,7000,E3,研究证据，非完整E4对局
+REL-0320,OBJ-108,T2 - 机械工厂,mechFactoryT2,S-OBJ-108-T2,生产,u_mechLightning,OBJ-117,特斯拉机甲,mechLightning,S-OBJ-117-T2,5200,E3,研究证据，非完整E4对局
+REL-0321,OBJ-108,T2 - 机械工厂,mechFactoryT2,S-OBJ-108-T2,生产,u_mechMinigun,OBJ-118,机枪机甲,mechMinigun,S-OBJ-118-T2,5000,E3,研究证据，非完整E4对局
+REL-0322,OBJ-108,T2 - 机械工厂,mechFactoryT2,S-OBJ-108-T2,生产,u_mechMissile,OBJ-120,防空机甲,mechMissile,S-OBJ-120-T1,900,E3,研究证据，非完整E4对局
+REL-0411,OBJ-145,鹦鹉螺号,nautilusSubmarine,S-OBJ-145-T2,生产,u_builderShip,OBJ-038,海上建造者,builderShip,S-OBJ-038-T1,500,E3,研究证据，非完整E4对局
+REL-0412,OBJ-145,鹦鹉螺号,nautilusSubmarine,S-OBJ-145-T2,生产,u_gunBoat,OBJ-016,机枪艇,gunBoat,S-OBJ-016-T1,300,E3,研究证据，非完整E4对局
+REL-0413,OBJ-145,鹦鹉螺号,nautilusSubmarine,S-OBJ-145-T2,生产,u_hoverTank,OBJ-010,悬浮坦克,hoverTank,S-OBJ-010-T1,450,E3,研究证据，非完整E4对局
+REL-0414,OBJ-145,鹦鹉螺号,nautilusSubmarine,S-OBJ-145-T2,生产,u_lightSub,OBJ-104,水下探测器,lightSub,S-OBJ-104-T1,450,E3,研究证据，非完整E4对局
+REL-0415,OBJ-145,鹦鹉螺号,nautilusSubmarine,S-OBJ-145-T2,生产,u_missileShip,OBJ-015,导弹舰,missileShip,S-OBJ-015-T1,900,E3,研究证据，非完整E4对局
+REL-0420,OBJ-146,鹦鹉螺号,nautilusSubmarineLand,S-OBJ-146-T2,生产,u_builderShip,OBJ-038,海上建造者,builderShip,S-OBJ-038-T1,500,E3,研究证据，非完整E4对局
+REL-0421,OBJ-146,鹦鹉螺号,nautilusSubmarineLand,S-OBJ-146-T2,生产,u_gunBoat,OBJ-016,机枪艇,gunBoat,S-OBJ-016-T1,300,E3,研究证据，非完整E4对局
+REL-0422,OBJ-146,鹦鹉螺号,nautilusSubmarineLand,S-OBJ-146-T2,生产,u_hoverTank,OBJ-010,悬浮坦克,hoverTank,S-OBJ-010-T1,450,E3,研究证据，非完整E4对局
+REL-0423,OBJ-146,鹦鹉螺号,nautilusSubmarineLand,S-OBJ-146-T2,生产,u_lightSub,OBJ-104,水下探测器,lightSub,S-OBJ-104-T1,450,E3,研究证据，非完整E4对局
+REL-0424,OBJ-146,鹦鹉螺号,nautilusSubmarineLand,S-OBJ-146-T2,生产,u_missileShip,OBJ-015,导弹舰,missileShip,S-OBJ-015-T1,900,E3,研究证据，非完整E4对局
+REL-0430,OBJ-147,鹦鹉螺号,nautilusSubmarineSurface,S-OBJ-147-T2,生产,u_builderShip,OBJ-038,海上建造者,builderShip,S-OBJ-038-T1,500,E3,研究证据，非完整E4对局
+REL-0431,OBJ-147,鹦鹉螺号,nautilusSubmarineSurface,S-OBJ-147-T2,生产,u_gunBoat,OBJ-016,机枪艇,gunBoat,S-OBJ-016-T1,300,E3,研究证据，非完整E4对局
+REL-0432,OBJ-147,鹦鹉螺号,nautilusSubmarineSurface,S-OBJ-147-T2,生产,u_hoverTank,OBJ-010,悬浮坦克,hoverTank,S-OBJ-010-T1,450,E3,研究证据，非完整E4对局
+REL-0433,OBJ-147,鹦鹉螺号,nautilusSubmarineSurface,S-OBJ-147-T2,生产,u_lightSub,OBJ-104,水下探测器,lightSub,S-OBJ-104-T1,450,E3,研究证据，非完整E4对局
+REL-0434,OBJ-147,鹦鹉螺号,nautilusSubmarineSurface,S-OBJ-147-T2,生产,u_missileShip,OBJ-015,导弹舰,missileShip,S-OBJ-015-T1,900,E3,研究证据，非完整E4对局
+REL-0441,OBJ-152,瞭望塔,outpostT1,S-OBJ-152-T1,跨类型升级,outpostT2_0,OBJ-153,瞭望塔 T2,outpostT2,S-OBJ-153-T2,2000,E3,研究证据，非完整E4对局
+REL-0442,OBJ-162,防空炮塔,c_antiAirTurret,S-OBJ-162-T1,跨类型升级,antiAirTurretFlak_1,OBJ-163,T2 - 高射炮,antiAirTurretFlak,S-OBJ-163-T1,4000,E3,研究证据，非完整E4对局
+REL-0443,OBJ-162,防空炮塔,c_antiAirTurret,S-OBJ-162-T1,跨类型升级,c_antiAirTurretT2_0,OBJ-164,T2 - 防空炮塔,c_antiAirTurretT2,S-OBJ-164-T1,1200,E3,研究证据，非完整E4对局
+REL-0444,OBJ-164,T2 - 防空炮塔,c_antiAirTurretT2,S-OBJ-164-T1,跨类型升级,c_antiAirTurretT3_0,OBJ-165,T3 - 防空炮塔,c_antiAirTurretT3,S-OBJ-165-T1,11000,E3,研究证据，非完整E4对局
+REL-0445,OBJ-166,炮塔,c_turret_t1,S-OBJ-166-T1,跨类型升级,c_turret_t1_artillery_1,OBJ-167,火炮,c_turret_t1_artillery,S-OBJ-167-T2,1600,E3,研究证据，非完整E4对局
+REL-0446,OBJ-166,炮塔,c_turret_t1,S-OBJ-166-T1,跨类型升级,c_turret_t1_lightning_3,OBJ-168,闪电炮塔,c_turret_t1_lightning,S-OBJ-168-T2,2200,E3,研究证据，非完整E4对局
+REL-0447,OBJ-166,炮塔,c_turret_t1,S-OBJ-166-T1,跨类型升级,c_turret_t2_flame_2,OBJ-170,火焰喷射器,c_turret_t2_flame,S-OBJ-170-T2,700,E3,研究证据，非完整E4对局
+REL-0448,OBJ-166,炮塔,c_turret_t1,S-OBJ-166-T1,跨类型升级,c_turret_t2_gun_0,OBJ-171,机枪 T2,c_turret_t2_gun,S-OBJ-171-T2,1000,E3,研究证据，非完整E4对局
+REL-0449,OBJ-167,火炮,c_turret_t1_artillery,S-OBJ-167-T2,跨类型升级,c_turret_t2_artillery_0,OBJ-169,火炮 T2,c_turret_t2_artillery,S-OBJ-169-T2,9000,E3,研究证据，非完整E4对局
+REL-0450,OBJ-168,闪电炮塔,c_turret_t1_lightning,S-OBJ-168-T2,跨类型升级,c_turret_t2_lightning_0,OBJ-172,闪电炮塔 T2,c_turret_t2_lightning,S-OBJ-172-T2,8000,E3,研究证据，非完整E4对局
+REL-0451,OBJ-171,机枪 T2,c_turret_t2_gun,S-OBJ-171-T2,跨类型升级,c_turret_t3_gun_0,OBJ-173,重机枪塔 T3,c_turret_t3_gun,S-OBJ-173-T2,11000,E3,研究证据，非完整E4对局

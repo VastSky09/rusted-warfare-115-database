@@ -1,0 +1,13 @@
+﻿relation_id,source_id,source_name,source_native_id,source_state,relation,native_action,target_id,target_name,target_native_id,target_state,cost_credits,evidence_level,verified_scope
+REL-0146,OBJ-037,潜水艇,attackSubmarine,S-OBJ-037-T1,同类型模式请求,151,OBJ-037,潜水艇,attackSubmarine,S-OBJ-037-mode_151,0,E3,研究证据，非完整E4对局
+REL-0147,OBJ-037,潜水艇,attackSubmarine,S-OBJ-037-T1,同类型模式请求,152,OBJ-037,潜水艇,attackSubmarine,S-OBJ-037-mode_152,0,E3,研究证据，非完整E4对局
+REL-0157,OBJ-039,两栖喷气机,amphibiousJet,S-OBJ-039-T1,同类型模式请求,151,OBJ-039,两栖喷气机,amphibiousJet,S-OBJ-039-mode_151,0,E3,研究证据，非完整E4对局
+REL-0158,OBJ-039,两栖喷气机,amphibiousJet,S-OBJ-039-T1,同类型模式请求,152,OBJ-039,两栖喷气机,amphibiousJet,S-OBJ-039-mode_152,0,E3,研究证据，非完整E4对局
+REL-0160,OBJ-053,AA激光射束战机,aaBeamGunship,S-OBJ-053-T2,跨类型转化,aaBeamGunship_afterburn_0,OBJ-054,AA激光射束战机,aaBeamGunship_afterburn,S-OBJ-054-T2,0,E3,研究证据，非完整E4对局
+REL-0162,OBJ-054,AA激光射束战机,aaBeamGunship_afterburn,S-OBJ-054-T2,跨类型转化,aaBeamGunship_1,OBJ-053,AA激光射束战机,aaBeamGunship,S-OBJ-053-T2,0,E3,研究证据，非完整E4对局
+REL-0282,OBJ-088,资源抽取器,extractorT3_overclocked,S-OBJ-088-T3,跨类型转化,extractorT3_1,OBJ-087,资源抽取器,extractorT3,S-OBJ-087-T3,0,E3,研究证据，非完整E4对局
+REL-0283,OBJ-089,资源抽取器,extractorT3_reinforced,S-OBJ-089-T3,跨类型转化,extractorT3_1,OBJ-087,资源抽取器,extractorT3,S-OBJ-087-T3,0,E3,研究证据，非完整E4对局
+REL-0323,OBJ-110,移动炮塔,mechBunker,S-OBJ-110-T1,跨类型转化,mechBunkerDeployed_0,OBJ-111,移动炮塔,mechBunkerDeployed,S-OBJ-111-T1,0,E3,研究证据，非完整E4对局
+REL-0324,OBJ-111,移动炮塔,mechBunkerDeployed,S-OBJ-111-T1,跨类型转化,mechBunker_1,OBJ-110,移动炮塔,mechBunker,S-OBJ-110-T1,0,E3,研究证据，非完整E4对局
+REL-0417,OBJ-145,鹦鹉螺号,nautilusSubmarine,S-OBJ-145-T2,跨类型转化,nautilusSubmarineSurface_5,OBJ-147,鹦鹉螺号,nautilusSubmarineSurface,S-OBJ-147-T2,0,E3,研究证据，非完整E4对局
+REL-0436,OBJ-147,鹦鹉螺号,nautilusSubmarineSurface,S-OBJ-147-T2,跨类型转化,nautilusSubmarine_7,OBJ-145,鹦鹉螺号,nautilusSubmarine,S-OBJ-145-T2,0,E3,研究证据，非完整E4对局
