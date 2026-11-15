@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>铁锈战争 PC1.15 · 单位与科技资料库</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1420;--panel:#122338;--border:#2c455b;--text:#ecf6fb;--soft:#a2bbce;--gold:#f2c47c;--cyan:#75d2dc}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(125deg,#101f2f,var(--bg));color:var(--text);font:14px/1.5 "Microsoft YaHei","Segoe UI",sans-serif}main{max-width:1250px;margin:0 auto;padding:24px}h1{font-size:clamp(21px,3vw,32px);margin:4px 0}h2{margin:0 0 8px;font-size:19px}h3{font-size:15px;margin:20px 0 10px;border-bottom:1px solid var(--border);padding-bottom:5px}p{margin:8px 0;color:var(--soft)}.kicker{color:var(--gold);letter-spacing:.16em;font-size:12px}.stat{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 20px}.stat span{border:1px solid var(--border);border-radius:9px;padding:7px 14px;background:var(--panel)}.stat b{color:var(--gold);font-size:20px;margin-right:6px}.layout{display:grid;grid-template-columns:340px minmax(0,1fr);gap:14px}.panel{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:15px;min-width:0}.warning{border-left:3px solid var(--gold);padding:10px 14px;background:#252b2d;margin-bottom:18px;color:#e9d5b2}.field{width:100%;background:#091723;border:1px solid #527188;color:var(--text);padding:10px;border-radius:7px;font:inherit}.list{max-height:620px;overflow:auto;margin-top:12px}.unit{width:100%;border:0;border-bottom:1px solid var(--border);background:transparent;color:var(--text);padding:9px 5px;text-align:left;cursor:pointer;display:flex;justify-content:space-between;gap:6px}.unit:hover,.unit.active{background:#24425a}.unit small{color:var(--soft);font-size:12px;display:block;overflow-wrap:anywhere}.pill{border-radius:20px;padding:2px 7px;font-size:12px;border:1px solid #527188;color:var(--cyan);white-space:nowrap}.pill.p2{color:var(--gold);border-color:#b99150}.cards{display:grid;grid-template-columns:1fr 1fr;gap:14px}.row{padding:9px 0;border-bottom:1px solid var(--border);overflow-wrap:anywhere}.row .type{color:var(--gold);font-size:12px}.row small{color:var(--soft);display:block}.link{border:none;background:none;color:var(--cyan);cursor:pointer;font:inherit;padding:0;text-align:left}.muted{font-size:12px;color:var(--soft)}.facts{display:flex;flex-wrap:wrap;gap:6px}.tag{font-size:12px;background:#294157;border-radius:6px;padding:4px 8px}footer{font-size:12px;color:var(--soft);margin-top:22px}code{color:#9adce6}#count{color:var(--soft);font-size:12px}
+@media(max-width:850px){main{padding:10px}.layout{grid-template-columns:1fr}.list{max-height:300px}.cards{grid-template-columns:1fr}}
+
+__COMBAT_CSS__
+</style><link rel="stylesheet" href="ui/navigation.css"></head><body><main>
+<nav class="database-views" aria-label="资料库视图"><a href="index.html" aria-current="page">原版资料库</a><a data-workspace-view="a" href="workbench.html#view=a&amp;unit=builder">紧凑查询台</a><a data-workspace-view="b" href="workbench.html#view=b&amp;unit=builder">科技路径浏览</a><a data-workspace-view="c" href="workbench.html#view=c&amp;unit=builder">战术对比工作台</a></nav>
+<header><h1>铁锈战争｜单位与科技关系资料库</h1><p>查询原版单位的获取、生产、建造、升级及相关形态转换。</p></header>
+<div class="stat"><span><b>91</b>对象</span><span><b id="num-tech"></b>科技关系</span><span><b id="num-transform"></b>形态与模式关系</span><span><b>0</b>原版游戏资产</span></div>
+<div class="warning">科技关系表示带条件的生产、建造、升级或转换，不保证当前对局可以直接执行。费用受获取来源和状态影响；尚未完成全部游戏内对局验证。</div>
+<div class="layout"><section class="panel"><h2>单位与建筑列表 <span id="count"></span></h2><input class="field" id="find" type="search" placeholder="搜索：中文名、内部标识、OBJ编号">
+<div style="display:flex;gap:8px;margin-top:8px"><select id="category" class="field"><option value="">全部类别</option><option>单位</option><option>建筑</option><option>其他</option></select><select id="prio" class="field"><option value="">全部范围</option><option>P1</option><option>P2</option></select></div>
+<div id="list" class="list"></div></section><article class="panel" id="detail" aria-live="polite"></article></div>
+<footer>仅含自行整理的数据与原创展示页面，不含游戏JAR/INI/反编译源码/官方贴图。游戏版权属于原权利人；发布许可证与最终公开由维护者确定。</footer>
+</main>
+<script type="application/json" id="db">__DATABASE_JSON__</script>
+<script type="application/json" id="combat-db">__COMBAT_JSON__</script>
+<script>__APPLICATION_JS__</script></body></html>
