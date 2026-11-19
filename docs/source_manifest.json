@@ -1,5 +1,5 @@
 {
-  "version": "v0.1-preview",
+  "version": "v0.3",
   "counts": {
     "objects": 91,
     "core": 85,
@@ -10,5 +10,20 @@
   "source_original_game_copied": false,
   "third_party_files_copied": false,
   "original_game_assets_included": false,
-  "source": "Frozen original PC 1.15 A-04 research snapshot"
+  "source": "Frozen original PC 1.15 A-04 research snapshot",
+  "combat_extension": {
+    "version": "v0.2",
+    "objects": 91,
+    "source": "Normalized PC 1.15 effective definitions and reviewed native implementation",
+    "source_jar_sha256": "8a550a37e2d8a5430866090d4e7d5892f9010b47f52a5a09350fc66c620deec9",
+    "match_validation": false,
+    "render_validation": true,
+    "original_game_files_included": false
+  },
+  "web_extension": {
+    "version": "v0.3",
+    "default_view": "original",
+    "research_views": ["compact", "path", "compare"],
+    "combat_default_collapsed": true
+  }
 }

@@ -1,0 +1,43 @@
+/* A scoped extension of the incumbent offline catalogue. */
+:root{--focus:#75d2dc}
+body{font-variant-numeric:tabular-nums}
+.field:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--focus);outline-offset:3px}
+.combat-section{margin-top:24px;padding-top:16px;border-top:1px solid var(--border)}
+.combat-entry{margin-top:16px;border:1px solid var(--border);border-radius:7px}
+.combat-entry>summary{padding:12px 14px;cursor:pointer;color:var(--cyan)}
+.combat-entry>summary:hover{background:#182d42}
+.combat-entry>summary:focus-visible{outline:2px solid var(--focus);outline-offset:3px}
+.combat-entry .when-open{display:none}
+.combat-entry[open] .when-open{display:inline}
+.combat-entry[open] .when-closed{display:none}
+.combat-entry>.combat-section{margin:0;padding:4px 14px 12px;border:0}
+.combat-section h3{font-size:16px;margin:24px 0 12px}
+.combat-section h4{font-size:14px;margin:16px 0 8px}
+.combat-intro{max-width:74ch}
+.attribute-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));margin:0;gap:0 24px}
+.attribute-grid>div{display:grid;grid-template-columns:minmax(96px,1fr) minmax(0,1.35fr);gap:12px;padding:9px 0;border-bottom:1px solid var(--border)}
+.attribute-grid dt{color:var(--soft)}
+.attribute-grid dd{margin:0;overflow-wrap:anywhere;text-align:right}
+.combat-note{padding:12px;background:#182d42;border:1px solid var(--border);border-radius:7px;margin:12px 0;max-width:78ch}
+.combat-note p{margin:4px 0}
+.combat-details{border-top:1px solid var(--border);margin-top:14px;padding:12px 0}
+.combat-details>summary{cursor:pointer;color:var(--cyan);padding:4px 0}
+.combat-details[open]>summary{margin-bottom:12px}
+.combat-table-wrap{overflow-x:auto;margin:12px 0}
+.combat-table{width:100%;border-collapse:collapse;min-width:440px}
+.combat-table th,.combat-table td{text-align:left;vertical-align:top;padding:9px 10px;border-bottom:1px solid var(--border);overflow-wrap:anywhere}
+.combat-table th{color:var(--soft);font-weight:500}
+.combat-table td:first-child{white-space:nowrap}
+.weapon-section{padding:12px 0 16px;border-top:1px solid var(--border)}
+.weapon-section h4{margin-top:6px}
+.weapon-formula{overflow-wrap:anywhere;padding:10px 12px;background:#091723;border-radius:6px;line-height:1.7}
+.condition-list{padding-left:20px;color:var(--soft);max-width:76ch;line-height:1.7}
+.condition-list li{margin:5px 0;overflow-wrap:anywhere}
+.state-select{display:flex;gap:12px;align-items:center;margin:12px 0;flex-wrap:wrap}
+.state-select .field{width:auto;max-width:100%;min-width:180px}
+.status-label{color:var(--gold);font-size:12px}
+.source-list{color:var(--soft);font-size:12px;overflow-wrap:anywhere;padding-left:20px}
+button{transition:background-color 150ms ease-out}
+@media(max-width:1000px){.attribute-grid{grid-template-columns:1fr}}
+@media(max-width:850px){.combat-section{margin-top:20px}.attribute-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.attribute-grid{grid-template-columns:1fr}.combat-table th,.combat-table td{padding:8px}.weapon-formula{font-size:13px}}
