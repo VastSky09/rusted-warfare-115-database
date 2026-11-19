@@ -455,7 +455,17 @@ def main():
     ap.add_argument("--catalog", type=Path, default=BASE / "data/units.csv")
     ap.add_argument("--native", type=Path, default=BASE / "tools/native_combat_profiles.json")
     ap.add_argument("--output", type=Path, default=BASE / "data/combat.json")
+    ap.add_argument("--refresh-derived", action="store_true",
+                    help="Recompute derived fields from published normalized facts; no private extraction required")
     args = ap.parse_args()
+    if args.refresh_derived:
+        output = json.loads(args.output.read_text(encoding="utf-8"))
+        for profile in output["units"].values():
+            enrich(profile)
+        output["meta"]["derivation_revision"] = "2026-11-19-preserve-attack-conditions"
+        args.output.write_text(json.dumps(output, ensure_ascii=False, indent=2, allow_nan=False) + "\n", encoding="utf-8")
+        print("Refreshed conditional derivations for", len(output["units"]), "published profiles; source facts unchanged")
+        return
     raw = {u["id"]: u for u in json.loads(args.raw.read_text(encoding="utf-8-sig"))}
     snapshot = json.loads(args.snapshot.read_text(encoding="utf-8-sig"))
     with args.catalog.open(encoding="utf-8-sig", newline="") as f:

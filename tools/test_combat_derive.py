@@ -9,6 +9,31 @@ def weapon(**kwargs):
 
 
 class ConditionalDpsTests(unittest.TestCase):
+    def test_empty_domain_map_preserves_global_attack_condition(self):
+        result = derive_unit_summary([weapon(damage=50, delay_ticks=60,
+            condition="if self.overwater", domain_conditions={})])["domains"]["ground"]
+        self.assertEqual(result["status"], "conditional")
+        self.assertTrue(any("if self.overwater" in c for c in result["conditions"]))
+
+    def test_global_and_domain_conditions_are_both_retained(self):
+        gun = weapon(damage=50, delay_ticks=60, domains=["ground", "air"],
+            condition="if self.hasFlag(id=1)", domain_conditions={"ground": "if not self.flying"})
+        result = derive_unit_summary([gun])["domains"]
+        ground = " ".join(result["ground"]["conditions"])
+        air = " ".join(result["air"]["conditions"])
+        self.assertIn("if self.hasFlag(id=1)", ground)
+        self.assertIn("if not self.flying", ground)
+        self.assertIn("if self.hasFlag(id=1)", air)
+        self.assertNotIn("if not self.flying", air)
+
+    def test_opposite_global_conditions_do_not_become_simultaneous_firepower(self):
+        guns = [weapon(id="on",damage=50,delay_ticks=60,condition="if self.hasFlag(id=0)",domain_conditions={}),
+                weapon(id="off",damage=80,delay_ticks=60,condition="if not self.hasFlag(id=0)",domain_conditions={})]
+        result = derive_unit_summary(guns)["domains"]["ground"]
+        self.assertEqual(result["status"], "conditional_unresolved")
+        self.assertIsNone(result["full_dps"])
+        self.assertIsNone(result["sustained_dps"])
+
     def test_per_shot_warmup_is_in_every_cycle(self):
         mech = derive_weapon(weapon(damage=23, delay_ticks=30, warmup_ticks=7))
         plasma = derive_weapon(weapon(damage=100, delay_ticks=90, warmup_ticks=10))

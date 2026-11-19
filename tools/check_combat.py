@@ -69,6 +69,12 @@ def main():
     fortress = {s['id']: s for s in units['experimentalDropship']['states']}
     assert set(fortress['flight']['summary']['domains']) == {'air'}
     assert set(fortress['landed']['summary']['domains']) == {'ground', 'air'}
+    for uid, domain, condition in [
+        ('combatEngineer', 'underwater', 'if self.overwater'),
+        ('c_turret_t1_lightning', 'ground', 'if not self.hasFlag(id=0)'),
+        ('c_turret_t2_lightning', 'ground', 'if not self.hasFlag(id=0)'),
+    ]:
+        assert condition in ' '.join(rate(uid, domain)['conditions']), (uid, 'attack condition lost')
     html = (ROOT / 'index.html').read_text(encoding='utf-8')
     embedded = json.loads(re.search(r'<script type="application/json" id="combat-db">(.*?)</script>', html, re.S).group(1))
     assert embedded == data, 'HTML combat data drift'

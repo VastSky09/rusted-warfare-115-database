@@ -18,7 +18,8 @@
       "范围项仅为单个目标中心命中上限，不乘附近单位数量。",
       "护盾扣除与穿入本体分开，回复与破盾边界需逐发计算。",
       "有能量限制时，满火力是可开火阶段的条件值，能源上界不是实际长期输出。"
-    ]
+    ],
+    "derivation_revision": "2026-11-19-preserve-attack-conditions"
   },
   "units": {
     "landFactory": {
@@ -5299,8 +5300,10 @@
             "weapon_ids": [
               "3"
             ],
-            "status": "derived",
-            "conditions": [],
+            "status": "conditional",
+            "conditions": [
+              "合计还要求攻击条件成立：if self.overwater"
+            ],
             "energy_groups": []
           }
         },
@@ -19593,8 +19596,10 @@
             "weapon_ids": [
               "1"
             ],
-            "status": "derived",
-            "conditions": [],
+            "status": "conditional",
+            "conditions": [
+              "合计还要求攻击条件成立：if not self.hasFlag(id=0)"
+            ],
             "energy_groups": []
           }
         },
@@ -20322,8 +20327,10 @@
             "weapon_ids": [
               "1"
             ],
-            "status": "derived",
-            "conditions": [],
+            "status": "conditional",
+            "conditions": [
+              "合计还要求攻击条件成立：if not self.hasFlag(id=0)"
+            ],
             "energy_groups": []
           }
         },

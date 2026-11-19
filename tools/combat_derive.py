@@ -266,11 +266,11 @@ def _domains(weapon):
 
 
 def _domain_condition(weapon, domain):
-    # A unit-wide canAttackLandUnits expression must not leak into its air gun.
+    # Global and per-domain gates both apply; an empty domain map must not erase the global gate.
     specific = weapon.get("domain_conditions")
-    if isinstance(specific, dict):
-        return specific.get(domain)
-    return weapon.get("condition")
+    local = specific.get(domain) if isinstance(specific, dict) else None
+    conditions = list(dict.fromkeys(str(x) for x in (weapon.get("condition"), local) if x))
+    return "；".join(conditions) or None
 
 
 def derive_unit_summary(weapons: list[dict], attributes: dict | None = None) -> dict:
